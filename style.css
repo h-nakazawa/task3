@@ -1,0 +1,31 @@
+.item{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.item:nth-last-child(odd){
+	flex-direction: row-reverse;
+}
+
+img {
+  display: block;
+  width: 48%;
+  height: auto;
+}
+
+.text{
+	width: 50%;
+}
+
+.item h1, p {
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+/* .item p{
+	font-size: 14px;
+} */
